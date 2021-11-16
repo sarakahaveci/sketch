@@ -96,12 +96,13 @@ button {
     margin-left: 40px;
     width: 80%;
   }
-  .centered{
-    margin-top: 60%;s
+  .centered {
+    margin-top: 60%;
   }
-}
-@media screen and (max-width: 800px) {
-  .paragraph {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+
+  @media screen and (max-width: 800px) {
+    .paragraph {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
   }
 }
