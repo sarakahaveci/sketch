@@ -1,6 +1,9 @@
 body {
   background-color: rgb(221, 220, 220);
 }
+.paragraph {
+  display: inline-table;
+}
 #logo {
   height: 200px;
   margin-left: 24rem;
@@ -74,4 +77,31 @@ button {
   width: 40px;
   text-align: center;
   text-decoration: none;
+}
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  span {
+    margin-left: 58px;
+  }
+  .paragraph {
+    width: 100%;
+    display: table-caption;
+    align-items: center;
+    justify-content: center;
+  }
+  #logo {
+    margin-left: 1rem;
+  }
+  input {
+    margin-left: 40px;
+    width: 80%;
+  }
+  .centered{
+    margin-top: 60%;s
+  }
+}
+@media screen and (max-width: 800px) {
+  .paragraph {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
 }
